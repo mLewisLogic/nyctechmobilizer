@@ -10,11 +10,21 @@
 -------------------------------------------------- */
 body {
   position: relative;
-  padding-top: 90px;
+  padding-top: 86px;
+}
+body:before {
+  content:"";
+  position:absolute;
+  z-index:-1;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-image: url(../img/skyline.jpg);
   background-color: #fff;
-  background-image: url(../img/grid-18px-masked.png);
-  background-repeat: repeat-x;
-  background-position: 0 40px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  opacity: 0.15;
 }
 
 
